@@ -15,24 +15,30 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
+    'domain' => env('MAILGUN_DOMAIN'),
+    'secret' => env('MAILGUN_SECRET'),
     ],
 
     'ses' => [
-        'key' => env('SES_KEY'),
-        'secret' => env('SES_SECRET'),
-        'region' => 'us-east-1',
+    'key' => env('SES_KEY'),
+    'secret' => env('SES_SECRET'),
+    'region' => 'us-east-1',
     ],
 
     'sparkpost' => [
-        'secret' => env('SPARKPOST_SECRET'),
+    'secret' => env('SPARKPOST_SECRET'),
     ],
 
     'stripe' => [
-        'model' => App\User::class,
-        'key' => env('STRIPE_KEY'),
-        'secret' => env('STRIPE_SECRET'),
+    'model' => App\User::class,
+    'key' => env('STRIPE_KEY'),
+    'secret' => env('STRIPE_SECRET'),
+    ],
+
+    'github' => [
+    'client_id' => 'your-github-app-id',
+    'client_secret' => 'your-github-app-secret',
+    'redirect' => 'http://your-callback-url',
     ],
 
 ];
