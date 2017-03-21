@@ -44,7 +44,7 @@ return [
     'facebook' => [
     'client_id' => '1907567022807445',
     'client_secret' => '625715ecac8788750613b9c19574edd9',
-    'redirect' => 'http://localhost:8888/callback',
+    'redirect' =>  'http://localhost:8888/loginSocialite/public/callback',
     ],
 
 ];
