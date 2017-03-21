@@ -14,7 +14,11 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #82C7EB;
+                background-image: url('{{ asset('img/bg_1.jpg') }}');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% auto;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -50,7 +54,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #82C7EB;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
